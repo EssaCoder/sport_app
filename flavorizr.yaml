@@ -1,0 +1,40 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  development:
+    app:
+      name: "[DEV] Sport"
+    android:
+      applicationId: "com.sport.app.dev"
+      icon: "assets/images/logo-dev.png"
+    ios:
+      bundleId: "com.sport.app.dev"
+      icon: "assets/images/logo-dev.png"
+
+  staging:
+    app:
+      name: "[STAGING] Sport"
+
+    android:
+      applicationId: "com.sport.app.staging"
+      icon: "assets/images/logo-staging.png"
+    ios:
+      bundleId: "com.sport.app.staging"
+      icon: "assets/images/logo-staging.png"
+
+  production:
+    app:
+      name: "Sport"
+
+    android:
+      applicationId: "com.sport.app"
+      icon: "assets/images/logo-prod.png"
+
+    ios:
+      bundleId: "com.sport.app"
+      icon: "assets/images/logo-prod.png"
+
+
+ide: idea

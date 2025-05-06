@@ -1,0 +1,19 @@
+{
+    "clubs": {
+        "connectionError": "Your device is not connected to the internet",
+        "error": "Oh no! Something went wrong",
+        "serverError": "Failed to connect to the server, please try again",
+        "dataLoadingError": "We encountered an issue while loading the data. Please check your connection or try again later.",
+        "tryAgain": "Try again",
+        "clubs": "Clubs",
+        "search": "Search by club name",
+        "noContent": "No content available",
+        "noContentSubtitle": "No content available to display, thank you for understanding",
+        "establishedAt": "Established at",
+        "location": "Location",
+        "stadium": "Stadium",
+        "currentPresident": "Current President",
+        "description": "Description",
+        "sports": "Sports"
+    }
+}
