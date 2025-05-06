@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseInsets] mixin and implements the [AppInsets] mixin.
 /// It provides the insets for the desktop app.
 ///
-/// 
+///
 @immutable
 class _DesktopInsets extends BaseInsets with _AppInsets {
   @override

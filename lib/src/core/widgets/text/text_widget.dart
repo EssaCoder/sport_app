@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 /// This is a widget that contains the text widget used in the app.
 /// It is used to handle the text widget used in the app.
 ///
-/// 
+///
 class TextWidget extends StatelessWidget {
   const TextWidget(
     this.text, {

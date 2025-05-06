@@ -5,7 +5,7 @@ part of 'images_widget.dart';
 /// This is a widget that contains the image network widget used in the app.
 /// It is used to handle the image network widget used in the app.
 ///
-/// 
+///
 class ImageNetworkWidget extends StatelessWidget {
   const ImageNetworkWidget(
     this.url, {

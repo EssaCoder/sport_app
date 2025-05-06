@@ -16,7 +16,7 @@ part 'network_info.dart';
 /// This is a class that contains the dio client used in the app.
 /// It is used to handle the dio client used in the app.
 ///
-/// 
+///
 @riverpod
 Dio dioClient(Ref ref) {
   final dio = Dio();

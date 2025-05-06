@@ -2,7 +2,7 @@ part of '../app_theme.dart';
 
 /// The light theme shadows used in the app.
 ///
-/// This class extends the [BaseShadows] mixin and implements 
+/// This class extends the [BaseShadows] mixin and implements
 /// the AppShadows mixin.
 /// It provides the shadows for the light theme.
 ///

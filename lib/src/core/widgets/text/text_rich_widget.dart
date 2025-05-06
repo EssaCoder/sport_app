@@ -1,4 +1,3 @@
-
 import 'package:flutter/cupertino.dart';
 
 /// The text rich widget used in the app.
@@ -6,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 /// This is a widget that contains the text rich widget used in the app.
 /// It is used to handle the text rich widget used in the app.
 ///
-/// 
+///
 class TextRichWidget extends StatelessWidget {
   const TextRichWidget({
     this.children,

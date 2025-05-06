@@ -8,7 +8,7 @@ import 'package:sport_app/src/core/utils/utils.dart';
 /// This is a widget that contains the app scaffold widget used in the app.
 /// It is used to handle the app scaffold widget used in the app.
 ///
-/// 
+///
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
     required this.child,

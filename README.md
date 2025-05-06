@@ -151,6 +151,7 @@ To build flavor apk, use:
 ```bash
 flutter build apk --flavor production --target=lib/main_production.dart --debug
 ```
+
 ## Build apk
 
 To build flavor apk, use:
@@ -158,6 +159,7 @@ To build flavor apk, use:
 ```bash
 flutter build appbundle --flavor production --target=lib/main_production.dart
 ```
+
 ```
 ## Run apk
 

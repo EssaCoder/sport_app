@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This abstract class is used to define the base insets used in the app.
 /// It is used in design system to define the insets of the app.
 ///
-/// 
+///
 @immutable
 abstract class BaseInsets {
   //Container

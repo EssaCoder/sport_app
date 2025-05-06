@@ -5,7 +5,7 @@ part of 'dio_client.dart';
 /// This is a class that contains the network info class used in the app.
 /// It is used to handle the network info class used in the app.
 ///
-/// 
+///
 abstract class NetworkInfo {
   Future<bool> get isConnected;
 }

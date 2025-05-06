@@ -5,7 +5,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 /// This is a enum that contains the sport enum used in the app.
 /// It is used to handle the sport enum used in the app.
 ///
-/// 
+///
 @JsonEnum()
 enum Sport {
   @JsonValue(1)

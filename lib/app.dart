@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -16,7 +14,7 @@ import 'package:sport_app/src/core/widgets/text/default_text_color.dart';
 /// This widget is the root of the application and is responsible for
 /// initializing the application.
 ///
-/// 
+///
 class App extends ConsumerWidget {
   const App({super.key});
 

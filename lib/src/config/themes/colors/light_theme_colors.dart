@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseColors] mixin and implements the AppColors mixin.
 /// It provides the colors for the light theme.
 ///
-/// 
+///
 @immutable
 class _LightThemeColors extends BaseColors with _AppColors {
   //Text
@@ -64,6 +64,7 @@ class _LightThemeColors extends BaseColors with _AppColors {
 
   @override
   Color get backgroundNeutral300 => neutral300;
+
   @override
   Color get borderNeutral200 => neutral200;
 
@@ -77,7 +78,7 @@ class _LightThemeColors extends BaseColors with _AppColors {
   @override
   Color get iconDefault200 => neutral200;
 
-//Border
+  //Border
   @override
   Color get borderPrimary => primary500;
 
@@ -142,7 +143,7 @@ class _LightThemeColors extends BaseColors with _AppColors {
 
   @override
   Color get base => neutral50;
+
   @override
   Color get highlight => neutral200;
-
 }

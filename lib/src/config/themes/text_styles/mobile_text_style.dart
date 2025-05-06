@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseTextStyle] mixin and implements the [TextStyle] mixin.
 /// It provides the text styles for the mobile app.
 ///
-/// 
+///
 class _MobileTextStyle with _TextStyle {
   @override
   late final TextStyle displayLarge = createTextStyle(

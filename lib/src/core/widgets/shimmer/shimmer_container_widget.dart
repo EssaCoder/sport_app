@@ -5,7 +5,7 @@ part of 'shimmer.dart';
 /// This is a widget that contains the shimmer container widget used in the app.
 /// It is used to handle the shimmer container widget used in the app.
 ///
-/// 
+///
 class ShimmerContainerWidget extends StatelessWidget {
   const ShimmerContainerWidget({
     required this.height,

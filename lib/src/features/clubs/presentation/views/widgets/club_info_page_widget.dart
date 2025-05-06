@@ -13,7 +13,7 @@ import 'package:sport_app/src/features/clubs/presentation/providers/club_details
 ///
 /// This widget is used to display the information of a club.
 ///
-/// 
+///
 class ClubInfoPageWidget extends ConsumerStatefulWidget {
   const ClubInfoPageWidget({required this.id, super.key});
 

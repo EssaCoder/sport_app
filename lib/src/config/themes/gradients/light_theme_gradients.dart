@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseGradients] mixin and implements the AppGradients mixin.
 /// It provides the gradients for the light theme.
 ///
-/// 
+///
 @immutable
 class _LightThemeGradients extends BaseGradients {
   @override

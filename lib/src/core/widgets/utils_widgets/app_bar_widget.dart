@@ -10,7 +10,7 @@ import 'package:sport_app/src/core/widgets/text/text_widget.dart';
 /// This is a widget that contains the app bar widget used in the app.
 /// It is used to handle the app bar widget used in the app.
 ///
-/// 
+///
 class AppBarWidget extends StatelessWidget {
   const AppBarWidget({
     this.leading,

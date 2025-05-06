@@ -11,7 +11,7 @@ import 'package:sport_app/src/features/clubs/presentation/views/screens/routes.d
 /// This widget is used to display a club card.
 /// It is a [StatelessWidget] that uses the [InkWell] widget to handle the tap event.
 ///
-/// 
+///
 class ClubCardWidget extends StatelessWidget {
   const ClubCardWidget({required this.club, super.key});
 

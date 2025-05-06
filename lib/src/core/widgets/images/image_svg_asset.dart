@@ -5,7 +5,7 @@ part of 'images_widget.dart';
 /// This is a widget that contains the image svg asset widget used in the app.
 /// It is used to handle the image svg asset widget used in the app.
 ///
-/// 
+///
 class ImageSvgAsset extends StatelessWidget {
   const ImageSvgAsset(
     this.assetName, {
@@ -48,9 +48,10 @@ class ImageSvgAsset extends StatelessWidget {
             height: height,
             width: width,
             alignment: alignment ?? Alignment.center,
-            colorFilter: color == null
-                ? null
-                : ColorFilter.mode(color!, BlendMode.srcIn),
+            colorFilter:
+                color == null
+                    ? null
+                    : ColorFilter.mode(color!, BlendMode.srcIn),
           ),
         ),
       ),

@@ -9,7 +9,7 @@ import 'package:sport_app/src/features/clubs/presentation/views/screens/routes.d
 /// This is a global key used to access the navigator state of the app.
 /// It is used to access the navigator state of the app.
 ///
-/// 
+///
 GlobalKey<NavigatorState>? navigatorKey;
 
 /// The app router used in the app.
@@ -17,7 +17,7 @@ GlobalKey<NavigatorState>? navigatorKey;
 /// This is a router used to navigate through the app.
 /// It is used to navigate through the app.
 ///
-/// 
+///
 final appRouter = GoRouter(
   navigatorKey: navigatorKey,
   debugLogDiagnostics: true,

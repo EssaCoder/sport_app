@@ -8,7 +8,7 @@ part of 'extensions.dart';
 /// the height of the bottom system padding,
 /// and all design system properties.
 ///
-/// 
+///
 extension ContextExtensions on BuildContext {
   /// Retrieves the size of the screen using [MediaQuery.of(context).size].
   Size get mediaQuerySize => MediaQuery.sizeOf(this);
@@ -32,11 +32,11 @@ extension ContextExtensions on BuildContext {
   /// [Breakpoint.tablet] if width > 600, otherwise [Breakpoint.mobile].
   Breakpoint get breakpoint {
     if (width > 1024) {
-      return Breakpoint.desktop;  // Desktop: width > 1024px
+      return Breakpoint.desktop; // Desktop: width > 1024px
     } else if (width > 600) {
-      return Breakpoint.tablet;   // Tablet: 600px < width <= 1024px
+      return Breakpoint.tablet; // Tablet: 600px < width <= 1024px
     }
-    return Breakpoint.mobile;     // Mobile: width <= 600px
+    return Breakpoint.mobile; // Mobile: width <= 600px
   }
 
   /// Returns true if the screen size is categorized as desktop.
@@ -96,5 +96,4 @@ extension ContextExtensions on BuildContext {
 
   /// Returns the base insets (paddings) from the theme.
   BaseInsets get insets => designSystem.insets;
-
 }

@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseInsets] mixin and implements the AppInsets mixin.
 /// It provides the insets for the mobile app.
 ///
-/// 
+///
 @immutable
 class _MobileInsets extends BaseInsets with _AppInsets {
   @override

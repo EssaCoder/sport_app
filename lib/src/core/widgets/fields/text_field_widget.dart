@@ -9,7 +9,7 @@ import 'package:sport_app/src/core/widgets/text/text_widget.dart';
 /// This is a widget that contains the text field widget used in the app.
 /// It is used to handle the text field widget used in the app.
 ///
-/// 
+///
 class TextFieldWidget extends StatelessWidget {
   const TextFieldWidget({
     super.key,

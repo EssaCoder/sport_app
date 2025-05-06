@@ -5,7 +5,7 @@ part of 'extensions.dart';
 /// This extension is used to get the responsive value based on the current breakpoint.
 /// It is used to get the responsive value based on the current breakpoint.
 ///
-/// 
+///
 extension BreakpointExtensions on Breakpoint {
   /// Returns a value based on the current breakpoint.
   /// Uses [desktop] for desktop, [tablet] for

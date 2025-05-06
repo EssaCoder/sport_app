@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class extends the [BaseColors] mixin and implements the AppColors mixin.
 /// It provides the colors for the dark theme.
 ///
-/// 
+///
 @immutable
 class _DarkThemeColors extends BaseColors with _AppColors {
   //Text
@@ -75,7 +75,7 @@ class _DarkThemeColors extends BaseColors with _AppColors {
   @override
   Color get iconDefault200 => neutral400;
 
-//Border
+  //Border
   @override
   Color get borderPrimary => primary500;
 
@@ -93,8 +93,10 @@ class _DarkThemeColors extends BaseColors with _AppColors {
 
   @override
   Color get borderNeutral300 => neutral700;
+
   @override
   Color get borderNeutral200 => neutral800;
+
   @override
   Color get whiteColor => white;
 
@@ -141,8 +143,7 @@ class _DarkThemeColors extends BaseColors with _AppColors {
 
   @override
   Color get base => neutral800;
+
   @override
   Color get highlight => neutral950;
-
-
 }

@@ -2,7 +2,7 @@
 
 // ignore_for_file: constant_identifier_names
 
-abstract class  LocaleKeys {
+abstract class LocaleKeys {
   static const clubs_connectionError = 'clubs.connectionError';
   static const clubs_error = 'clubs.error';
   static const clubs_serverError = 'clubs.serverError';
@@ -19,5 +19,4 @@ abstract class  LocaleKeys {
   static const clubs_description = 'clubs.description';
   static const clubs_sports = 'clubs.sports';
   static const clubs = 'clubs';
-
 }

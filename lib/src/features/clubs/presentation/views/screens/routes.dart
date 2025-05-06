@@ -4,6 +4,7 @@ import 'package:sport_app/src/features/clubs/presentation/views/screens/club_det
 import 'package:sport_app/src/features/clubs/presentation/views/screens/clubs_screen.dart';
 
 part 'routes.g.dart';
+
 /// This file contains the route definitions for the clubs feature of the app.
 /// It uses the `go_router` package to define the routes and their corresponding screens.
 @TypedGoRoute<ClubsRouteData>(path: '/')

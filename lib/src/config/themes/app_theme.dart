@@ -28,7 +28,7 @@ part 'text_styles/mobile_text_style.dart';
 ///
 /// This class is used to define the theme of the app.
 ///
-/// 
+///
 @immutable
 class AppTheme {
   AppTheme({required this.breakpoint, required this.themeMode}) {

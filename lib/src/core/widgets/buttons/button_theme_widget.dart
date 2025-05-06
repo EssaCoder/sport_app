@@ -12,7 +12,7 @@ import 'package:sport_app/src/core/widgets/images/images_widget.dart';
 /// This is a widget that contains the button theme widget used in the app.
 /// It is used to handle the button theme widget used in the app.
 ///
-/// 
+///
 class ButtonThemeWidget extends ConsumerWidget {
   const ButtonThemeWidget({super.key});
 

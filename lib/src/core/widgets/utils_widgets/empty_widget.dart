@@ -9,14 +9,9 @@ import 'package:sport_app/src/core/widgets/text/text_widget.dart';
 /// This is a widget that contains the empty widget used in the app.
 /// It is used to handle the empty widget used in the app.
 ///
-/// 
+///
 class EmptyWidget extends StatelessWidget {
-  const EmptyWidget({
-    this.subtitle,
-    this.title,
-    this.topPadding,
-    super.key,
-  });
+  const EmptyWidget({this.subtitle, this.title, this.topPadding, super.key});
 
   final String? title;
   final String? subtitle;

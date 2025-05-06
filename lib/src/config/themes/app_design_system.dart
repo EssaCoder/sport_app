@@ -6,7 +6,7 @@ import 'package:sport_app/src/config/themes/app_theme.dart';
 /// This class is used to design the app.
 /// It is used to design the app.
 ///
-/// 
+///
 class AppDesignSystem extends StatelessWidget {
   const AppDesignSystem({
     required this.appTheme,

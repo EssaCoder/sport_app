@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This class implements the [BaseCorners] mixin.
 /// It provides the corners for the mobile app.
 ///
-/// 
+///
 @immutable
 class _MobileCorners implements BaseCorners {
   @override

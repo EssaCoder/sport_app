@@ -5,7 +5,7 @@ part of '../app_theme.dart';
 /// This abstract class is used to define the base corners used in the app.
 /// It is used in design system to define the corners of the app.
 ///
-/// 
+///
 @immutable
 abstract class BaseCorners {
   /// Small radius.
@@ -37,10 +37,12 @@ abstract class BaseCorners {
   ///
   /// In mobile case: `Radius.circular(360)`.
   Radius get rc360;
+
   /// Radius for a full circle (360 degrees).
   ///
   /// In mobile case: `Radius.circular(360)`.
   Radius get rx;
+
   /// Big radius.
   ///
   /// In mobile case: `Radius.circular(32)`.

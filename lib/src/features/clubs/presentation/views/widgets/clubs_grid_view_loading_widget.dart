@@ -7,7 +7,7 @@ import 'package:sport_app/src/features/clubs/presentation/views/widgets/clubs_gr
 ///
 /// This widget is used to display a loading state for the clubs grid view.
 ///
-/// 
+///
 class ClubsGridViewLoadingWidget extends StatelessWidget {
   const ClubsGridViewLoadingWidget({super.key});
 

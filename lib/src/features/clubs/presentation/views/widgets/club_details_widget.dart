@@ -10,7 +10,7 @@ import 'package:sport_app/src/features/clubs/presentation/views/widgets/club_inf
 ///
 /// This widget is used to display the details of a club.
 ///
-/// 
+///
 class ClubDetailsWidget extends StatefulWidget {
   const ClubDetailsWidget({required this.club, super.key});
 

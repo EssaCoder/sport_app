@@ -5,7 +5,7 @@ part of 'dio_client.dart';
 /// This is a class that contains the dio interceptor used in the app.
 /// It is used to handle the dio interceptor used in the app.
 ///
-/// 
+///
 class DioInterceptor extends Interceptor {
   @override
   void onRequest(RequestOptions options, RequestInterceptorHandler handler) {
