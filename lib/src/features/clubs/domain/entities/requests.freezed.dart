@@ -12,60 +12,47 @@ part of 'requests.dart';
 
 // dart format off
 T _$identity<T>(T value) => value;
-
 /// @nodoc
 mixin _$ClubsRequest {
 
-  String? get word;
-
-  set word(String? value);
-
-  int get limit;
-
-  set limit(int value);
-
-  /// Create a copy of ClubsRequest
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
-  @pragma('vm:prefer-inline')
-  $ClubsRequestCopyWith<ClubsRequest> get copyWith =>
-      _$ClubsRequestCopyWithImpl<ClubsRequest>(
-          this as ClubsRequest, _$identity);
+ String? get word; set word(String? value); int get limit; set limit(int value);
+/// Create a copy of ClubsRequest
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$ClubsRequestCopyWith<ClubsRequest> get copyWith => _$ClubsRequestCopyWithImpl<ClubsRequest>(this as ClubsRequest, _$identity);
 
 
-  @override
-  bool operator ==(Object other) {
-    return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is ClubsRequest &&
-            (identical(other.word, word) || other.word == word) &&
-            (identical(other.limit, limit) || other.limit == limit));
-  }
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is ClubsRequest&&(identical(other.word, word) || other.word == word)&&(identical(other.limit, limit) || other.limit == limit));
+}
 
 
-  @override
-  int get hashCode => Object.hash(runtimeType, word, limit);
+@override
+int get hashCode => Object.hash(runtimeType,word,limit);
 
-  @override
-  String toString() {
-    return 'ClubsRequest(word: $word, limit: $limit)';
-  }
+@override
+String toString() {
+  return 'ClubsRequest(word: $word, limit: $limit)';
+}
 
 
 }
 
 /// @nodoc
-abstract mixin class $ClubsRequestCopyWith<$Res> {
-  factory $ClubsRequestCopyWith(ClubsRequest value,
-      $Res Function(ClubsRequest) _then) = _$ClubsRequestCopyWithImpl;
+abstract mixin class $ClubsRequestCopyWith<$Res>  {
+  factory $ClubsRequestCopyWith(ClubsRequest value, $Res Function(ClubsRequest) _then) = _$ClubsRequestCopyWithImpl;
+@useResult
+$Res call({
+ String? word, int limit
+});
 
-  @useResult
-  $Res call({
-    String? word, int limit
-  });
+
 
 
 }
-
 /// @nodoc
 class _$ClubsRequestCopyWithImpl<$Res>
     implements $ClubsRequestCopyWith<$Res> {
@@ -74,22 +61,15 @@ class _$ClubsRequestCopyWithImpl<$Res>
   final ClubsRequest _self;
   final $Res Function(ClubsRequest) _then;
 
-  /// Create a copy of ClubsRequest
-  /// with the given fields replaced by the non-null parameter values.
-  @pragma('vm:prefer-inline')
-  @override
-  $Res call({Object? word = freezed, Object? limit = null,}) {
-    return _then(ClubsRequest(
-      word: freezed == word
-          ? _self.word
-          : word // ignore: cast_nullable_to_non_nullable
-      as String?,
-      limit: null == limit
-          ? _self.limit
-          : limit // ignore: cast_nullable_to_non_nullable
-      as int,
-    ));
-  }
+/// Create a copy of ClubsRequest
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') @override $Res call({Object? word = freezed,Object? limit = null,}) {
+  return _then(ClubsRequest(
+word: freezed == word ? _self.word : word // ignore: cast_nullable_to_non_nullable
+as String?,limit: null == limit ? _self.limit : limit // ignore: cast_nullable_to_non_nullable
+as int,
+  ));
+}
 
 }
 
